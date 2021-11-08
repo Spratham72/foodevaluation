@@ -1,0 +1,28 @@
+#product{
+    
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 20% 20% 20% 20%;
+    gap: 20px;
+    
+    font-size: 15px;
+   
+}
+
+#product>div>figure>img{
+    width: auto;
+    height: 100%;
+}
+#product>div>figure{
+    height:150px;
+    
+    text-align: center;
+}
+#product>*{
+    background-color: white;
+    cursor: pointer;
+    border-radius: 20px;
+}
+h2{
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+#login{
+    margin-top: 50px;
+    width: 200px;
+    font-size: large;
+    
+}
+#login>*{
+    margin: 10px;
+ 
+    
+}

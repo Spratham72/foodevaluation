@@ -1,0 +1,35 @@
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(14, 35, 131);
+    color: rgb(125, 211, 211);
+    align-items: center;
+}
+#navbar>div>input{
+width: 300px;
+height: 30px;
+}
+#navbar>div>button{
+    height: 35px;
+}
+#navbar h3{
+    cursor: pointer;
+}
+#food{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    justify-content: center;
+    
+    
+}
+#appendFood{
+    background-color: brown;
+    border: 8px solid burlywood;
+    text-align: center;
+    font-size: larger;
+    color: rgb(226, 219, 208);
+}
+#appendFood img{
+    width: 100%;
+}

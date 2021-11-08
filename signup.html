@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="signup.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div>
+    <div id="navbar">
+        <h3 onclick="location.href='index.html'">Home</h3>
+        <div><input type="text" id="search" placeholder="Search">
+        <button onclick="getData()">Search</button>
+        </div>
+        <h3 onclick="location.href='login.html'">Login</h3>
+        <h3 onclick="location.href='signup.html'">Signup</h3>
+        </div>
+    <form id="signup"> 
+        <label >Name</label><br>
+        <input type="text" id="name" placeholder="name"><br>
+        <label>Email</label><br>
+        <input type="email" id="email" placeholder="email"><br>
+        <label>Password</label><br>
+        <input type="password" id="password"><br>
+        <label>Username</label><br>
+        <input type="text" id="user"><br>
+        <label>Mobile</label><br>
+        <input type="text" id="mobile"><br>
+        <label>Description</label><br>
+        <input type="text" id="description"><br>
+    </form>
+    <button onclick="getData()">Submit</button>
+</div>
+</body>
+<script src="signup.js"></script>
+</html>

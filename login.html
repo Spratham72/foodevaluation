@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+    <div id="navbar">
+        <h3 onclick="location.href='index.html'">Home</h3>
+        <div><input type="text" id="search" placeholder="Search">
+        <button onclick="getData()">Search</button>
+        </div>
+        <h3 onclick="location.href='login.html'">Login</h3>
+        <h3 onclick="location.href='signup.html'">Signup</h3>
+        </div>
+    <div>
+        <form id="login">
+            <label>Username</label><br>
+            <input type="text" id="username" placeholder="Username"><br>
+            <label>Password</label><br>
+            <input type="password" id="pass"><br>
+        </form>
+    </div>
+    <button onclick="login()">Submit</button>
+</body>
+<script src="login.js"></script>
+</html>
